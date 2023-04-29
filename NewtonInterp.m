@@ -23,7 +23,6 @@ for col = 1:size(T,2)
                     co(col, 1) = T(row,col);
                     enteredCo = true;
                 end
-                disp(T);
             end
         elseif mod(col, 2) ~= 0
             if (row + (col - 1)) <= size(T, 1) && mod(row, 2) ~= 0 && row >= col
@@ -32,7 +31,6 @@ for col = 1:size(T,2)
                     co(col, 1) = T(row,col);
                     enteredCo = true;
                 end
-                disp(T);
             end
         end
     end
