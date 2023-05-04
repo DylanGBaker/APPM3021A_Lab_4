@@ -191,4 +191,8 @@ hold off
 
  %% Question 3b
 
- %%
+ disp("Weierstrass approximation theorem says that any function f that is continous along the interval [a,b] can be approximated with a polynomial P(X), wehre the difference between f(x) and P(X) is less than the error e");
+ disp("This is provided that the values for x are within the interval [a,b]. For my polynomial approximation all the x values were within the interval of [-5,5] however, the more initial x and y values used the high the order.");
+ disp("One would think that the more points used the better the approximation. This is not the case from the graphs seen in question 3a.")
+ disp("The error at the end points was so big that the approximation then diverges and is not accurate at the end points. This is Runge's phenomenon.")
+ disp("")
