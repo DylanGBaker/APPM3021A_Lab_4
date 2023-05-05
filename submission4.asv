@@ -62,11 +62,7 @@ hold off
 disp("     ");
 
 %% Question 2.2
-disp("The inaccuracy at the end points is due to Runge's theorem. When running the code multiple times more often than not the graph did not appear to be a parabola,")
-disp("as the end points would be a much greater magnitude compared to the other points. But when the end points did not go to a much greater magnitude a parabola could be seen.")
-disp("The End points were still quite off compared to the other interpolating points. The final initial value from the x values used to create the function is also not used in the")
-disp("interpolating function which can also cause inaccuracies. The other x values are used in the interpolating function and so those values are quite accurate compared to the actual function.")
-disp("            ");
+disp("The inaccuracy at the end points is due to Runge's theorem. When running the code multiple times more often than not th")
 
  
  %% Question 3a
@@ -197,8 +193,8 @@ disp("             ");
 
  %% Question 3b
 
- disp("Weierstrass approximation theorem says that any function f that is continous along the interval [a,b] can be approximated with a polynomial P(X), wehre the difference between f(x) and P(X) is less than the error e.");
- disp("This is provided that the values for x are within the interval [a,b]. For my polynomial approximation all the x values were within the interval of [-5,5] however, the more initial x and y values used the higher the order.");
+ disp("Weierstrass approximation theorem says that any function f that is continous along the interval [a,b] can be approximated with a polynomial P(X), wehre the difference between f(x) and P(X) is less than the error e");
+ disp("This is provided that the values for x are within the interval [a,b]. For my polynomial approximation all the x values were within the interval of [-5,5] however, the more initial x and y values used the high the order.");
  disp("One would think that the more points used the better the approximation. This is not the case from the graphs seen in question 3a.")
  disp("The error at the end points was so big that the approximation then diverges and is not accurate at the end points. This is Runge's phenomenon.")
  disp("The rand() function made more or less equi-spaced points and so Runge's theorem comes into effect and causes the inaccuracy at the end points, the higher the order of the interpolating functions.")
